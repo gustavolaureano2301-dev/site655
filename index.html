@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#073c30">
+  <title>Plantfy — Boas histórias merecem continuar</title>
+  <meta name="description" content="Uma nova forma de olhar para o que já existe. Conheça a Plantfy, um marketplace de usados feito para dar novos caminhos às suas coisas.">
+  <meta property="og:title" content="Plantfy — Boas histórias merecem continuar">
+  <meta property="og:description" content="Compre, venda e faça circular. Conheça a Plantfy.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/plantfy-symbol.png" type="image/png">
+  <link rel="preload" as="image" href="frames/frame-0001.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <noscript><style>.scroll-story{height:100svh}.no-script-image{top:40%;left:20%;width:60%}</style></noscript>
+</head>
+<body>
+  <a class="skip-link" href="#explorar">Pular animação</a>
+  <header class="header">
+    <a href="#inicio" class="brand" aria-label="Plantfy, início"><img src="assets/plantfy-logo.png" alt="Plantfy" width="321" height="99"></a>
+    <nav aria-label="Navegação principal"><a href="#explorar">Explore a Plantfy</a><a href="#como-funciona" class="desktop-link">Como funciona</a></nav>
+    <a class="button small" href="#explorar">Encontre seu próximo <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section id="inicio" class="scroll-story" aria-label="A transformação Plantfy">
+      <div class="story-stage">
+        <canvas id="sequence" role="img" aria-label="Animação de um computador, um tênis e uma bicicleta se transformando no símbolo da Plantfy"></canvas>
+        <div class="story-heading" hidden>
+          <p class="eyebrow">MENOS DESCARTE. MAIS POSSIBILIDADES.</p>
+          <h1>Boas histórias<br>merecem <em>continuar.</em></h1>
+        </div>
+        <div class="story-caption" aria-hidden="true" hidden><span id="chapter-label">Um novo olhar para o que já existe.</span></div>
+        <div class="story-bottom">
+          <p class="intro" hidden>O que já fez parte da sua vida<br>pode fazer toda a diferença em outra.</p>
+          <a href="#explorar" class="scroll-hint"><span class="mouse" aria-hidden="true"></span><span>Role para transformar<br><small>ou pule para explorar ↓</small></span></a>
+          <div class="story-controls"><button id="motion-toggle" type="button" aria-pressed="false">Pausar animação</button><span class="chapter-number" aria-hidden="true"><b id="chapter-number">01</b> / 03</span></div>
+        </div>
+        <div class="sequence-status" id="sequence-status" role="status">Preparando a experiência…</div>
+        <div class="progress-track" aria-hidden="true"><div id="scroll-progress"></div></div>
+        <noscript><img class="no-script-image" src="frames/frame-0240.webp" alt="Marca Plantfy"><p class="no-script-note">Ative o JavaScript para acompanhar a animação pela rolagem.</p></noscript>
+      </div>
+    </section>
+    <section id="explorar" class="explore section-wrap">
+      <div class="section-top"><div><p class="eyebrow">COMPRE. VENDA. FAÇA CIRCULAR.</p><h2>Seu próximo achado<br>já tem uma história.</h2></div><p>Mais valor para você.<br>Uma nova chance para suas coisas.</p></div>
+      <form id="search-form" class="search" role="search"><label for="search-input" class="sr-only">O que você está procurando?</label><span aria-hidden="true">⌕</span><input type="search" id="search-input" placeholder="O que você está procurando?" maxlength="120"><button class="button" type="submit">Buscar <span aria-hidden="true">↗</span></button></form>
+      <div class="categories" role="group" aria-label="Categorias"><button type="button" class="category active" aria-pressed="true" data-category="Todos">Todos</button><button type="button" class="category" aria-pressed="false" data-category="Eletrônicos">Eletrônicos</button><button type="button" class="category" aria-pressed="false" data-category="Casa e móveis">Casa e móveis</button><button type="button" class="category" aria-pressed="false" data-category="Roupas e calçados">Roupas e calçados</button><button type="button" class="category" aria-pressed="false" data-category="Bicicletas">Bicicletas</button><button type="button" class="category" aria-pressed="false" data-category="Livros">Livros</button><button type="button" class="category" aria-pressed="false" data-category="Outros">Outros</button></div>
+      <div class="catalog-empty" aria-live="polite"><div class="empty-symbol" aria-hidden="true">↗</div><div><h3 id="results-title">Os primeiros achados estão por vir.</h3><p id="results-description">Estamos preparando a Plantfy. Em breve, este espaço vai conectar suas coisas a novas histórias.</p></div><span class="preview-label">Pré-lançamento</span></div>
+    </section>
+    <section id="como-funciona" class="how-section"><div class="section-wrap"><div class="section-top"><div><p class="eyebrow">SIMPLES ASSIM</p><h2>Uma boa troca.<br>Um novo começo.</h2></div><img class="symbol" src="assets/plantfy-symbol.png" alt="" width="180" height="172" loading="lazy"></div><div class="steps"><article><span class="step-number">01</span><h3>Encontre uma possibilidade.</h3><p>Aquele livro, uma bicicleta, seu próximo computador. Usado pode ser exatamente o que você precisa.</p></article><article><span class="step-number">02</span><h3>Converse e combine.</h3><p>A proposta é simples: aproximar quem tem de quem precisa, com conversa direta dentro da Plantfy.</p></article><article><span class="step-number">03</span><h3>Deixe a história seguir.</h3><p>Mais espaço em casa, economia no bolso e coisas boas circulando por mais tempo.</p></article></div><p class="launch-note">A Plantfy está em construção. Contas, anúncios e conversas estarão disponíveis em uma próxima etapa.</p></div></section>
+    <footer class="section-wrap footer"><a class="brand" href="#inicio" aria-label="Voltar ao início"><img src="assets/plantfy-logo.png" width="321" height="99" alt="Plantfy" loading="lazy"></a><p>Novos caminhos para o que já existe.</p><a href="#inicio">Voltar ao topo ↑</a></footer>
+  </main>
+</body>
+</html>
